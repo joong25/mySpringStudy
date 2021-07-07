@@ -1,0 +1,7 @@
+두 개 이상의 설정 파일 사용 방법
+- @configuration 어노테이션과 @Autrowired 어노테이션 사용
+1번 파일에서 @configuration 사용 후 
+2번 파일에서 @Autowired 사용하면 자동으로 주입 처리 가능
+
+- @Import 어노테이션 사용
+@Import 어노테이션은 함께 사용할 설정 클래스를 지정한다
